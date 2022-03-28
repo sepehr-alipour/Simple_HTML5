@@ -1,25 +1,11 @@
-# Assignment 3 Instructions
 
 ## Introduction
 
-This assignment will help introduce DOM programming with HTML and JavaScript.
-
-Please follow instructions in the `WEB222 Assignment 3.pdf` file.
-
-Please do this assignment on your own, and submit only your own work.
-Gaining experience with JavaScript and the web takes a lot of personal practice,
-and working on these problems yourself will help build your skill.
-
-## Submission
-
-Please read and follow all instructions below carefully. If you have problems
-or questions, talk to your classmates or professor.
-
-To hand in your work, see the "Submitting your Assignment" section below.
+This will help introduce DOM programming with HTML and JavaScript.
 
 ## Setup
 
-This assignment relies on a number of dependencies, which must be installed on
+This relies on a number of dependencies, which must be installed on
 your computer.
 
 First, install Node.js on your computer. See installation instructions at:
@@ -30,11 +16,8 @@ You can install the LTS (Long Term Support) version of node.js.
 
 ## Install Dependencies
 
-Open a command line terminal and navigate (i.e., "cd") to the directory where
-you have unzipped the assignment files. When you type "dir" (Windows) or
-"ls" (Linux/macOS) you should see this README.md file, package.json, src/, etc.
 
-In this directory, install the assignment dependencies using the
+In this directory, install the dependencies using the
 Node.js Package Manager (npm), which is installed along with node.js. In your
 terminal, type the following:
 
@@ -73,11 +56,11 @@ Once these are installed VSCode will automatically show you errors as you type.
 If you want to use a different editor, that's fine. Confirm with your professor
 that it will work for our needs. You may not use Notepad, for example.
 
-## Learn how to Run the Assignment Web Server
+## Learn how to Run the Web Server
 
-This assignment includes multiple HTML, JS, and CSS files. The correct way to
+This project includes multiple HTML, JS, and CSS files. The correct way to
 open these files in your browser is using a web server. To run a web server
-for the assignment files, use the npm command:
+for the files, use the npm command:
 
 ```
 npm run server
@@ -112,10 +95,7 @@ the `src/` directory. Open your browser to point to this URL.
 NOTE: you should disable your browser's network cache when developing locally.
 See https://nicholasbering.ca/tools/2016/10/09/devtools-disable-caching/
 
-## Learn how to Run the Assignment Tests
-
-This assignment does not have unit tests, but does provide automated HTML
-validation. To run the tests, use the npm command:
+## Learn how to Run the Tests
 
 ```
 npm test
@@ -192,13 +172,3 @@ This will rewrite all files in `src/` to use proper formatting. NOTE:
 running this command will overwrite your file, so make sure you have saved
 your work before you run it.
 
-## Submitting your Assignment
-
-When you have completed your assignment, you need to prepare your submission.
-To do so, use the npm command:
-
-```
-npm run prepare-submission
-```
-
-You can upload and submit the `submission.zip` file to Blackboard.
